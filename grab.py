@@ -17,6 +17,7 @@ def set_folder():
 
     if not os.path.exists(path):
         os.makedirs(path)
+        print "Folder named 'images' created.."
 
 def grab_images():
     set_board()
